@@ -136,9 +136,6 @@ export class CalculatorService {
       case '÷':
         result = number1 / number2;
         break;
-      case '%':
-        result = (number1 * number2) / 100;
-        break;
     }
 
     this.resultText.set(result.toString());
